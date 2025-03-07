@@ -30,7 +30,7 @@ button.addEventListener("click" , function(e){
     else{
         result.innerHTML = "Please enter a valid number !!"
     }
-
+    input.value = "";
 });
 
 function checkValidity(str){
